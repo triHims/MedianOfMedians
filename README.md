@@ -8,6 +8,10 @@ https://stackoverflow.com/a/52471681
 
 
 Note: this implmentation falls to n2 on extremly skewed inputs
+This question can be solved by this implementation, just change all the less than signs to greater than 
+https://leetcode.com/problems/kth-largest-element-in-an-array/
+
+Good luck.
 
 
 ## Answer - credits: user m69 ''snarky and unwelcoming'' https://stackoverflow.com/users/4907604/m69-snarky-and-unwelcoming
