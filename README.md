@@ -7,6 +7,9 @@ saving it here because i don't trust internet anymore. Things get deleted.
 https://stackoverflow.com/a/52471681
 
 
+Note: this implmentation falls to n2 on extremly skewed inputs
+
+
 ## Answer - credits: user m69 ''snarky and unwelcoming'' https://stackoverflow.com/users/4907604/m69-snarky-and-unwelcoming
 The cause of your confusion about the median-of-medians algorithm is that, while median-of-medians returns an approximate result within 20% of the actual median, at some stages in the algorithm we also need to calculate exact medians. If you mix up the two, you will not get the expected result, as demonstrated in your example.
 
