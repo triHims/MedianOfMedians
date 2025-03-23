@@ -1,4 +1,4 @@
-# MedianOfMedians
+# MedianOfMedians java implmementation
 Storing research for medianOfMedians. 
 NOTE , i am just trying to learn the algorithm. 
 
