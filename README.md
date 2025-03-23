@@ -14,6 +14,12 @@ https://leetcode.com/problems/kth-largest-element-in-an-array/
 Good luck.
 
 
+Apart from the answer below i looked at one other answer . There is a trick which i use from it in the algorithm. 
+after finding median of 5 for all the partitions i move those medians to start of the array so that i can call select on this without creating new array.
+![image](https://github.com/user-attachments/assets/e0636619-5785-46e4-a962-1e703b9e7b21)
+
+
+
 ## Answer - credits: user m69 ''snarky and unwelcoming'' https://stackoverflow.com/users/4907604/m69-snarky-and-unwelcoming
 The cause of your confusion about the median-of-medians algorithm is that, while median-of-medians returns an approximate result within 20% of the actual median, at some stages in the algorithm we also need to calculate exact medians. If you mix up the two, you will not get the expected result, as demonstrated in your example.
 
